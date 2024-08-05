@@ -1,0 +1,26 @@
+{
+    "rabbits": {
+        "name": "Rabbits",
+        "players": [
+            "Alice",
+            "Bob",
+            "Charlie",
+            "David",
+            "Eve"
+        ],
+        "captain": "Alice",
+        "icon": "/img/league/teams/rabbits.jpg"
+    },
+    "tigers": {
+        "name": "Tigers",
+        "players": [
+            "Frank",
+            "Grace",
+            "Hannah",
+            "Ivy",
+            "Jack"
+        ],
+        "captain": "Frank",
+        "icon": "/img/league/teams/tigers.jpg"
+    }
+}

@@ -1,0 +1,138 @@
+body {
+    
+    position: relative;
+
+    .header {
+        height: 15%;
+        background-color: var(--light-color);
+        color: var(--dark-text-color);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        box-sizing: border-box;
+
+        h2 {
+            font-size: 1.8rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 1.4rem;
+            letter-spacing: 0.2rem;
+        }
+    }
+}
+
+.template {
+    height: 85%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > table {
+        height: 90%;
+        width: 450px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        table-layout: fixed;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    & > table > tbody {
+        background-color: var(--light-color);
+        color: var(--dark-text-color);
+        width: 100%;
+
+        padding: 30px;
+        border-radius: 20px;
+
+        tr {
+            width: 100%;
+            text-align: center;
+        }
+
+        & > tr.thead {
+            padding: 10px;
+        }
+
+        th {
+            font-size: 18px;
+            aspect-ratio: 1/1;
+            
+        }
+
+        & > tr:not(:last-child) {
+            border-bottom: 1px solid var(--secondary-color);
+        }
+
+        td {
+            white-space: wrap;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+        }
+
+        .logo img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .position {
+            width: 50px;
+            font-weight: bolder;
+        }
+
+        .gain {
+            width: 60px;
+        }
+
+        .equipes {
+            width: 120px;
+        }
+
+        .joues {
+            width: 60px;
+        }
+
+        .points {
+            width: 60px;
+        }
+        
+    }
+}
+
+.green {color: var(--green);}
+
+.red {color: var(--red);}
+
+.gain {font-weight: bold;}
+
+#icon {
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+    background-color: var(--text-color);
+
+    bottom: 10px;
+    right: 10px;
+
+    position: absolute;
+}
+
+#date {
+    text-transform: capitalize;
+}

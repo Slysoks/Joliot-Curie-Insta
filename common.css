@@ -1,0 +1,46 @@
+/*Color palete : https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Paris-2024';
+    src: url('./fonts/Paris2024-Variable.ttf');
+}
+
+:root {
+    --primary-color: #1b263b;
+    --secondary-color: #415a77;
+
+    --light-color: #f4f4f4;
+    
+    --text-color: #e0fbfc;
+    --dark-text-color: #1b263b;
+    
+    --amber: #ffbe0b;
+    --orange: #fb5607;
+    --rose: #ff006e;
+    --blue-violet: #8338ec;
+    --azure: #3a86ff;
+    --green: #00a86b;
+    --red: #ff0000;
+}
+
+html {
+    background-color: lightgreen;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    aspect-ratio: 9 / 16;
+    width: auto;
+    height: 100vh;
+    color: var(--text-color);
+    font-family: 'Paris-2024', sans-serif;
+    overflow: hidden;
+}
